@@ -37,7 +37,9 @@ export default createStore({
   actions: {
     async cargarLocalStorage({commit}) {  
       try {
-        const res = await fetch('https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas.json')
+        const res = await fetch('https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas.json', {
+          method: 'GET'
+        })
         const dataDB = await res.json()
         const arrayTareas = []
         for(let id in dataDB) {
@@ -58,20 +60,39 @@ export default createStore({
         })
 
         const dataDB = await res.json()
-        commit('set', tarea);
+        commit('set', dataDB);
         
       } catch (error) {
         console.log(error)
       }
     },
     deleteTareas({commit}, id) {
-      commit('eliminar', id)
+      try {
+        fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas/${id}.json`, {
+          method: 'DELETE',
+        })
+        commit('eliminar', id)
+
+      } catch (error) {
+        console.log(error)
+      }
     },
     setTarea({commit}, id) {
       commit('tarea', id)
     },
-    updateTarea({commit}, tarea) {
-      commit('update', tarea)
+    async updateTarea({commit}, tarea) {
+      try {
+        const res = await fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas/${tarea.id}.json`, {
+          method: 'PATCH',
+          headers: {'Content-type': 'application/json'},
+          body: JSON.stringify(tarea)
+        })
+        const dataDB = await res.json()
+        commit('update', dataDB)
+
+      } catch (error) {
+        console.log(error)
+      }
     }
   },
   modules: {

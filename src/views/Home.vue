@@ -34,7 +34,6 @@ export default {
   methods: {
     ...mapActions(['setTareas']),
     procesarFormulario() {
-      console.log(this.tarea)
       if(this.tarea.nombre.trim() === '') {
         console.log('Vacio');
         return;
