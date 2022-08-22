@@ -18,6 +18,11 @@ const routes = [
     component: () => import('../views/Editar.vue')
   },
   {
+    path: '/registro',
+    name: 'Registro',
+    component: () => import('../views/Registro.vue')
+  },
+  {
     path: "/:catchall(.*)",
     name: "Error",
     component: () => import('../components/Error.vue')

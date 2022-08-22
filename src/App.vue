@@ -3,7 +3,6 @@
     <Navbar />
   </div>
   <dir class="container">
-    <h1>CRUD con Vue.js + Firebase</h1>
   </dir>
   <div class="container">
     <router-view/>
