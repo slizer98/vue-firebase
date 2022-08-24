@@ -76,7 +76,6 @@ export default createStore({
           })
         })
         const userDB = await res.json()
-        console.log(userDB)
         if(userDB.error) {
           console.log(userDB.error)
           return

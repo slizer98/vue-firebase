@@ -1,0 +1,387 @@
+[debug] [2022-08-24T13:08:17.090Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T13:08:17.095Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-08-24T13:08:17.096Z] CLI Version:   11.8.0
+[debug] [2022-08-24T13:08:17.097Z] Platform:      win32
+[debug] [2022-08-24T13:08:17.097Z] Node Version:  v16.13.1
+[debug] [2022-08-24T13:08:17.099Z] Time:          Wed Aug 24 2022 08:08:17 GMT-0500 (Central Daylight Time)
+[debug] [2022-08-24T13:08:17.100Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-24T13:08:17.107Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2022-08-24T13:08:17.401Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-08-24T13:08:17.404Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=497635202&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-24T13:08:59.062Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2022-08-24T13:08:59.065Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2022-08-24T13:08:59.384Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2022-08-24T13:08:59.386Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as vicolola746@gmail.com 
+[debug] [2022-08-24T13:09:31.434Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T13:09:31.438Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-24T13:09:31.440Z] CLI Version:   11.8.0
+[debug] [2022-08-24T13:09:31.440Z] Platform:      win32
+[debug] [2022-08-24T13:09:31.441Z] Node Version:  v16.13.1
+[debug] [2022-08-24T13:09:31.444Z] Time:          Wed Aug 24 2022 08:09:31 GMT-0500 (Central Daylight Time)
+[debug] [2022-08-24T13:09:31.445Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-24T13:09:31.469Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-24T13:09:31.476Z] > authorizing via signed-in user (vicolola746@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jorje\Desktop\cursos\vue\api-firebase
+
+[error] 
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or specify a feature by running firebase init [feature_name]
+[debug] [2022-08-24T13:10:50.449Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T13:10:50.455Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-24T13:10:50.457Z] CLI Version:   11.8.0
+[debug] [2022-08-24T13:10:50.457Z] Platform:      win32
+[debug] [2022-08-24T13:10:50.458Z] Node Version:  v16.13.1
+[debug] [2022-08-24T13:10:50.461Z] Time:          Wed Aug 24 2022 08:10:50 GMT-0500 (Central Daylight Time)
+[debug] [2022-08-24T13:10:50.462Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-24T13:10:50.488Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-24T13:10:50.492Z] > authorizing via signed-in user (vicolola746@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jorje\Desktop\cursos\vue\api-firebase
+
+[error] 
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or specify a feature by running firebase init [feature_name]
+[debug] [2022-08-24T13:12:27.994Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T13:12:27.998Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-24T13:12:27.999Z] CLI Version:   11.8.0
+[debug] [2022-08-24T13:12:28.000Z] Platform:      win32
+[debug] [2022-08-24T13:12:28.000Z] Node Version:  v16.13.1
+[debug] [2022-08-24T13:12:28.002Z] Time:          Wed Aug 24 2022 08:12:28 GMT-0500 (Central Daylight Time)
+[debug] [2022-08-24T13:12:28.003Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-24T13:12:28.049Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-24T13:12:28.054Z] > authorizing via signed-in user (vicolola746@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jorje\Desktop\cursos\vue\api-firebase
+
+[error] 
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or specify a feature by running firebase init [feature_name]
+[debug] [2022-08-24T13:13:05.096Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T13:13:05.103Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-24T13:13:05.104Z] CLI Version:   11.8.0
+[debug] [2022-08-24T13:13:05.105Z] Platform:      win32
+[debug] [2022-08-24T13:13:05.105Z] Node Version:  v16.13.1
+[debug] [2022-08-24T13:13:05.107Z] Time:          Wed Aug 24 2022 08:13:05 GMT-0500 (Central Daylight Time)
+[debug] [2022-08-24T13:13:05.107Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-24T13:13:05.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-24T13:13:05.130Z] > authorizing via signed-in user (vicolola746@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jorje\Desktop\cursos\vue\api-firebase
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-24T13:13:19.486Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-24T13:13:20.021Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-24T13:13:20.024Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-08-24T13:13:39.562Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T13:13:39.567Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-24T13:13:39.568Z] CLI Version:   11.8.0
+[debug] [2022-08-24T13:13:39.568Z] Platform:      win32
+[debug] [2022-08-24T13:13:39.569Z] Node Version:  v16.13.1
+[debug] [2022-08-24T13:13:39.571Z] Time:          Wed Aug 24 2022 08:13:39 GMT-0500 (Central Daylight Time)
+[debug] [2022-08-24T13:13:39.572Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-24T13:13:39.592Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-24T13:13:39.596Z] > authorizing via signed-in user (vicolola746@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jorje\Desktop\cursos\vue\api-firebase
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-24T13:14:12.150Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-24T13:14:12.653Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-24T13:14:12.655Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project vue-firebase-2b6f3 (vue-firebase) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-24T13:15:38.430Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-24T13:15:38.596Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-24T13:15:38.597Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.3","browserURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.3/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\jorje\Desktop\cursos\vue\api-firebase 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=403728695&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-24T13:16:21.931Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-24T13:16:21.932Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-24T13:16:22.277Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-24T13:16:22.278Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-24T13:16:22.300Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-24T13:16:22.651Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-24T13:16:22.652Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"slizer98","id":86857956,"node_id":"MDQ6VXNlcjg2ODU3OTU2","avatar_url":"https://avatars.githubusercontent.com/u/86857956?v=4","gravatar_id":"","url":"https://api.github.com/users/slizer98","html_url":"https://github.com/slizer98","followers_url":"https://api.github.com/users/slizer98/followers","following_url":"https://api.github.com/users/slizer98/following{/other_user}","gists_url":"https://api.github.com/users/slizer98/gists{/gist_id}","starred_url":"https://api.github.com/users/slizer98/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/slizer98/subscriptions","organizations_url":"https://api.github.com/users/slizer98/orgs","repos_url":"https://api.github.com/users/slizer98/repos","events_url":"https://api.github.com/users/slizer98/events{/privacy}","received_events_url":"https://api.github.com/users/slizer98/received_events","type":"User","site_admin":false,"name":"Erick VIllafuerte","company":null,"blog":"","location":"Salamanca, Guanajuato","email":null,"hireable":null,"bio":"Estudiante ultimo semestre en Ing. sistemas computacionales en Universidad de Guanajuato.\r\n\r\nFull-Stack Developer JavaScript","twitter_username":"ErickVillaDev","public_repos":52,"public_gists":0,"followers":5,"following":5,"created_at":"2021-07-02T22:34:16Z","updated_at":"2022-08-21T12:43:03Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":51433,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as slizer98 
+[info] 
+[debug] [2022-08-24T13:19:41.973Z] >>> [apiv2][query] GET https://api.github.com/repos/slizer98/git@github.com:slizer98/vue-firebase.git/actions/secrets/public-key type=owner
+[debug] [2022-08-24T13:19:42.273Z] <<< [apiv2][status] GET https://api.github.com/repos/slizer98/git@github.com:slizer98/vue-firebase.git/actions/secrets/public-key 404
+[debug] [2022-08-24T13:19:42.275Z] <<< [apiv2][body] GET https://api.github.com/repos/slizer98/git@github.com:slizer98/vue-firebase.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-24T13:19:51.497Z] >>> [apiv2][query] GET https://api.github.com/repos/slizer98 git@github.com:slizer98/vue-firebase.git/actions/secrets/public-key type=owner
+[debug] [2022-08-24T13:19:51.870Z] <<< [apiv2][status] GET https://api.github.com/repos/slizer98 git@github.com:slizer98/vue-firebase.git/actions/secrets/public-key 404
+[debug] [2022-08-24T13:19:51.872Z] <<< [apiv2][body] GET https://api.github.com/repos/slizer98 git@github.com:slizer98/vue-firebase.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-08-24T13:20:19.342Z] >>> [apiv2][query] GET https://api.github.com/repos/slizer98/vue-firebase/actions/secrets/public-key type=owner
+[debug] [2022-08-24T13:20:19.671Z] <<< [apiv2][status] GET https://api.github.com/repos/slizer98/vue-firebase/actions/secrets/public-key 200
+[debug] [2022-08-24T13:20:19.676Z] <<< [apiv2][body] GET https://api.github.com/repos/slizer98/vue-firebase/actions/secrets/public-key {"key_id":"568250167242549743","key":"jt2fPVGSohpTaoYgxa/7TmWHbE6Br2L8tCOVgHfUyVY="}
+[debug] [2022-08-24T13:20:19.684Z] >>> [apiv2][query] GET https://api.github.com/repos/slizer98/vue-firebase [none]
+[debug] [2022-08-24T13:20:20.024Z] <<< [apiv2][status] GET https://api.github.com/repos/slizer98/vue-firebase 200
+[debug] [2022-08-24T13:20:20.026Z] <<< [apiv2][body] GET https://api.github.com/repos/slizer98/vue-firebase {"id":528432705,"node_id":"R_kgDOH38-QQ","name":"vue-firebase","full_name":"slizer98/vue-firebase","private":false,"owner":{"login":"slizer98","id":86857956,"node_id":"MDQ6VXNlcjg2ODU3OTU2","avatar_url":"https://avatars.githubusercontent.com/u/86857956?v=4","gravatar_id":"","url":"https://api.github.com/users/slizer98","html_url":"https://github.com/slizer98","followers_url":"https://api.github.com/users/slizer98/followers","following_url":"https://api.github.com/users/slizer98/following{/other_user}","gists_url":"https://api.github.com/users/slizer98/gists{/gist_id}","starred_url":"https://api.github.com/users/slizer98/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/slizer98/subscriptions","organizations_url":"https://api.github.com/users/slizer98/orgs","repos_url":"https://api.github.com/users/slizer98/repos","events_url":"https://api.github.com/users/slizer98/events{/privacy}","received_events_url":"https://api.github.com/users/slizer98/received_events","type":"User","site_admin":false},"html_url":"https://github.com/slizer98/vue-firebase","description":"CRUD usando vue y firebase","fork":false,"url":"https://api.github.com/repos/slizer98/vue-firebase","forks_url":"https://api.github.com/repos/slizer98/vue-firebase/forks","keys_url":"https://api.github.com/repos/slizer98/vue-firebase/keys{/key_id}","collaborators_url":"https://api.github.com/repos/slizer98/vue-firebase/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/slizer98/vue-firebase/teams","hooks_url":"https://api.github.com/repos/slizer98/vue-firebase/hooks","issue_events_url":"https://api.github.com/repos/slizer98/vue-firebase/issues/events{/number}","events_url":"https://api.github.com/repos/slizer98/vue-firebase/events","assignees_url":"https://api.github.com/repos/slizer98/vue-firebase/assignees{/user}","branches_url":"https://api.github.com/repos/slizer98/vue-firebase/branches{/branch}","tags_url":"https://api.github.com/repos/slizer98/vue-firebase/tags","blobs_url":"https://api.github.com/repos/slizer98/vue-firebase/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/slizer98/vue-firebase/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/slizer98/vue-firebase/git/refs{/sha}","trees_url":"https://api.github.com/repos/slizer98/vue-firebase/git/trees{/sha}","statuses_url":"https://api.github.com/repos/slizer98/vue-firebase/statuses/{sha}","languages_url":"https://api.github.com/repos/slizer98/vue-firebase/languages","stargazers_url":"https://api.github.com/repos/slizer98/vue-firebase/stargazers","contributors_url":"https://api.github.com/repos/slizer98/vue-firebase/contributors","subscribers_url":"https://api.github.com/repos/slizer98/vue-firebase/subscribers","subscription_url":"https://api.github.com/repos/slizer98/vue-firebase/subscription","commits_url":"https://api.github.com/repos/slizer98/vue-firebase/commits{/sha}","git_commits_url":"https://api.github.com/repos/slizer98/vue-firebase/git/commits{/sha}","comments_url":"https://api.github.com/repos/slizer98/vue-firebase/comments{/number}","issue_comment_url":"https://api.github.com/repos/slizer98/vue-firebase/issues/comments{/number}","contents_url":"https://api.github.com/repos/slizer98/vue-firebase/contents/{+path}","compare_url":"https://api.github.com/repos/slizer98/vue-firebase/compare/{base}...{head}","merges_url":"https://api.github.com/repos/slizer98/vue-firebase/merges","archive_url":"https://api.github.com/repos/slizer98/vue-firebase/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/slizer98/vue-firebase/downloads","issues_url":"https://api.github.com/repos/slizer98/vue-firebase/issues{/number}","pulls_url":"https://api.github.com/repos/slizer98/vue-firebase/pulls{/number}","milestones_url":"https://api.github.com/repos/slizer98/vue-firebase/milestones{/number}","notifications_url":"https://api.github.com/repos/slizer98/vue-firebase/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/slizer98/vue-firebase/labels{/name}","releases_url":"https://api.github.com/repos/slizer98/vue-firebase/releases{/id}","deployments_url":"https://api.github.com/repos/slizer98/vue-firebase/deployments","created_at":"2022-08-24T13:18:41Z","updated_at":"2022-08-24T13:19:22Z","pushed_at":"2022-08-24T13:19:19Z","git_url":"git://github.com/slizer98/vue-firebase.git","ssh_url":"git@github.com:slizer98/vue-firebase.git","clone_url":"https://github.com/slizer98/vue-firebase.git","svn_url":"https://github.com/slizer98/vue-firebase","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":"Vue","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"temp_clone_token":"","allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":1}
+[debug] [2022-08-24T13:20:20.051Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts [none]
+[debug] [2022-08-24T13:20:20.053Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts {"accountId":"github-action-528432705","serviceAccount":{"displayName":"GitHub Actions (slizer98/vue-firebase)","description":"A service account with permission to deploy to Firebase Hosting for the GitHub repository slizer98/vue-firebase"}}
+[debug] [2022-08-24T13:20:20.885Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts 200
+[debug] [2022-08-24T13:20:20.888Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts [omitted]
+[debug] [2022-08-24T13:20:20.894Z] >>> [apiv2][query] GET https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com [none]
+[debug] [2022-08-24T13:20:20.901Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:getIamPolicy [none]
+[debug] [2022-08-24T13:20:21.295Z] <<< [apiv2][status] GET https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com 200
+[debug] [2022-08-24T13:20:21.297Z] <<< [apiv2][body] GET https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com {"name":"projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com","projectId":"vue-firebase-2b6f3","uniqueId":"108059930745309807489","email":"github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com","displayName":"GitHub Actions (slizer98/vue-firebase)","etag":"MDEwMjE5MjA=","description":"A service account with permission to deploy to Firebase Hosting for the GitHub repository slizer98/vue-firebase","oauth2ClientId":"108059930745309807489"}
+[debug] [2022-08-24T13:20:21.348Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:getIamPolicy 200
+[debug] [2022-08-24T13:20:21.349Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:getIamPolicy {"version":1,"etag":"BwXmrNWE1cs=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaseappcheck.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebasedatabase.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-402673484601@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:vicolola746@gmail.com"]}]}
+[debug] [2022-08-24T13:20:21.355Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:setIamPolicy [none]
+[debug] [2022-08-24T13:20:21.357Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:setIamPolicy {"policy":{"version":1,"etag":"BwXmrNWE1cs=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaseappcheck.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com","serviceAccount:github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebasedatabase.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-402673484601@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:vicolola746@gmail.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com"]}]},"updateMask":"bindings"}
+[debug] [2022-08-24T13:20:21.992Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:setIamPolicy 200
+[debug] [2022-08-24T13:20:21.994Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:setIamPolicy {"version":1,"etag":"BwXm/IsJPA4=","bindings":[{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaseappcheck.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com","serviceAccount:github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebasedatabase.admin","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-402673484601@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-n0r4j@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:vicolola746@gmail.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com"]}]}
+[debug] [2022-08-24T13:20:22.001Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com/keys [none]
+[debug] [2022-08-24T13:20:22.003Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com/keys {"keyAlgorithm":"KEY_ALG_UNSPECIFIED","privateKeyType":"TYPE_GOOGLE_CREDENTIALS_FILE"}
+[debug] [2022-08-24T13:20:22.626Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com/keys 200
+[debug] [2022-08-24T13:20:22.628Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com/keys {"name":"projects/vue-firebase-2b6f3/serviceAccounts/github-action-528432705@vue-firebase-2b6f3.iam.gserviceaccount.com/keys/ee4e4487f9f5f9315e662f0366b3f9ef2592f4de","privateKeyType":"TYPE_GOOGLE_CREDENTIALS_FILE","privateKeyData":"ewogICJ0eXBlIjogInNlcnZpY2VfYWNjb3VudCIsCiAgInByb2plY3RfaWQiOiAidnVlLWZpcmViYXNlLTJiNmYzIiwKICAicHJpdmF0ZV9rZXlfaWQiOiAiZWU0ZTQ0ODdmOWY1ZjkzMTVlNjYyZjAzNjZiM2Y5ZWYyNTkyZjRkZSIsCiAgInByaXZhdGVfa2V5IjogIi0tLS0tQkVHSU4gUFJJVkFURSBLRVktLS0tLVxuTUlJRXZnSUJBREFOQmdrcWhraUc5dzBCQVFFRkFBU0NCS2d3Z2dTa0FnRUFBb0lCQVFEY0JEZHcxY296cnlqclxuTE9DTEJ0OCtuQTBYOGkwMjVJcU8xaURscHIxZ2hPUFRSVGZibjUvQmJYVDBGdHYxNVJLQkp5MldaaDhqdStWS1xuWC83M2RCZkFsYkdPU2RUczk4U1labm5EcFBiV2FsQTYvMi80VVRZV3E1em05UGNybDVoRW1qVGVpN0ZVRHNMOFxuR2tBNjVqbDFwMDZIRGluQWxKRkh5enhSQU8yRklETnh2UHlsUEZPdXo3MzhOc1Z2RC9HT3ZrRGdaLzdjNkFBT1xuUGtqcXdSOHNhbnBEcGk0cmJoZFdxalNOSGp1T1oyUUYzQ3oybXBweXhXdHpoZTFzNktDZDZCRmZ0a05BRWZ4eVxuWkxoczA1YWhWUHhQZDBVcm5YYnRSK1A2bmN0RUYrNjRrUm1lTWRIM0NpSVNjd1ljTHBlRFdaQ3hJb3VSeWp1Y1xuNGFjUzBadWZBZ01CQUFFQ2dnRUFBZ1hONXEwb2V6b29nNlQ1ZVgyNkxxNnJsaVZGVWlSZXU3cHZPZjFDNzNDNVxuVVhkbzhJMXlvQW9jRWFSbUtFZ1BWLzJldHl2QUxJbHRMYlpkTnpRcmhiczZreWJObk5JWVRoaGZGVFBlaXhFV1xuSkx5MWNGQjYwVkdKa3p2OFM3dk1qQkRvM0lUblAvRVV6TkdHOXFPb01wTXpyeDBydUJnRmorWG42NHk1SWtpcFxub3NNZ0xWVHcwMEltYTF5eFpvSTk3eFR5U0hhNW1ncXp3SytZdHB4TU1DaFJUNjduWWcxSGR1bUxsaFd5VHFpTFxuQ2FxOHUvb0hob1gyM09IZkhrQ1d0OTNxUkFWeTh6ZVhybVRKYTBXT0FGbndMRldWeCtJcFFHK1ptR1d4dFZhMFxuc1NkK21jVW9Qd0ZpZDJEeWZpMDRheWJ4TWhaT000SGtObkZCTUIzU29RS0JnUUQwMklyZ1pBVUl2M0UydVNrWVxuWTRaSUczZ0dWUk1SNTVHbHREdUhqNlBZcytRLzYweVByamNtL1NzM3dKZHFVUDFuL2NEc0ptYnVZTUxlNk9jcFxuT3B1S0s3c3lqZklnaSszQWVDTnFxbmd6NFo3TE43ZXVMRkZ6SWVyL3RORzlXNk1jbHhLcnlvWGNqeVErUG9qb1xucGYxVjRrUnlHTWFJK2lIWjE4bXh2bFc3NFFLQmdRRG1DaHRuZXIxSDRFdkI1SGRkRkRBSWZVOXIzdElIblFyUFxuQ0g2bnhpNytlRTgzbFRzMSs4UEk5eURmbzJkcndGaDYvSVIwL0JFS3pNR1dsM3JjeWJCUVFERjg2R2dvWG9IQlxuTURzQ2h4aFpPb2hLNVVuWU8zSEY3a1J5WnREbFVRUnNOeFdWY1RMYk5LUjN5dERqYVNSNEVmT2VEVFNWcjZBQVxud0c4QnRPNUhmd0tCZ1FEZjdaUEYrWFBwTmoyeTBORlc3dDhHMzZoOEVoNm94Mk1iYTZUdUxGNnJlSXNPTW9NSVxuL1VxUHJBZDBxLzFQVE5jVjNxd3N6a3BoUmJtejZNcFJtTHBjT2ZheEc4VVFJeW5FVjV2OGwvL3JZek81cERHblxuWi96dUVWMDlsQUFtOE1KVENaQVg4ZGRQaXRLWTR0U1FBZythRnFDR3dVWUNUTkhjekZBNDhWeXp3UUtCZ1FETlxuaUR4QjhhVktvZm11REc0bHFOTGQwdkJ5SmN5c1pzRHdoOXQ2RlpXSllYOE4zM1RlMzhwbk5YNldzazNHTlQ0WVxuN0tPQVRuTC9ua0JkUjR6TDFoeUZKMFhRSDJwb256LzVseGt5UWZnY1NUTGJFQkF4ZGJOS3NIOVJZOUhEQWVjY1xudFA3QTNqb2RKdVRINzF0QnhJQ0VFeTRDaWpQd2hkRkV1cXF6OEs5eEN3S0JnRTVTNzF4Nm1SRWNYVzAxTEZNalxubktRazIyY2xvbDlVZS9qcWlJa3lLR0NsbCtFcTZWS0swTTQ2MS9oQWVmVCtvaFdWdGVKL3BEbXZzOVZ6dkl1UlxuclpxNTl5cFhTdXpsME9hU3U0Sk4vUERvVFRNVlRvUEsyNmFSN2VDLzg0K2dnZEc1dEVPRDY5WjF5bS9RQk43RlxuMUVtM2lWTDN6S2YvT1QyUXdQd2FXVW9NXG4tLS0tLUVORCBQUklWQVRFIEtFWS0tLS0tXG4iLAogICJjbGllbnRfZW1haWwiOiAiZ2l0aHViLWFjdGlvbi01Mjg0MzI3MDVAdnVlLWZpcmViYXNlLTJiNmYzLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwKICAiY2xpZW50X2lkIjogIjEwODA1OTkzMDc0NTMwOTgwNzQ4OSIsCiAgImF1dGhfdXJpIjogImh0dHBzOi8vYWNjb3VudHMuZ29vZ2xlLmNvbS9vL29hdXRoMi9hdXRoIiwKICAidG9rZW5fdXJpIjogImh0dHBzOi8vb2F1dGgyLmdvb2dsZWFwaXMuY29tL3Rva2VuIiwKICAiYXV0aF9wcm92aWRlcl94NTA5X2NlcnRfdXJsIjogImh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL29hdXRoMi92MS9jZXJ0cyIsCiAgImNsaWVudF94NTA5X2NlcnRfdXJsIjogImh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL3JvYm90L3YxL21ldGFkYXRhL3g1MDkvZ2l0aHViLWFjdGlvbi01Mjg0MzI3MDUlNDB2dWUtZmlyZWJhc2UtMmI2ZjMuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iCn0K","validAfterTime":"2022-08-24T13:20:22Z","validBeforeTime":"9999-12-31T23:59:59Z","keyAlgorithm":"KEY_ALG_RSA_2048","keyOrigin":"GOOGLE_PROVIDED","keyType":"USER_MANAGED"}
+[info] 
+[info] +  Created service account github-action-528432705 with Firebase Hosting admin permissions. 
+[debug] [2022-08-24T13:20:22.653Z] >>> [apiv2][query] PUT https://api.github.com/repos/slizer98/vue-firebase/actions/secrets/FIREBASE_SERVICE_ACCOUNT_VUE_FIREBASE_2B6F3 [none]
+[debug] [2022-08-24T13:20:22.655Z] >>> [apiv2][body] PUT https://api.github.com/repos/slizer98/vue-firebase/actions/secrets/FIREBASE_SERVICE_ACCOUNT_VUE_FIREBASE_2B6F3 {"encrypted_value":"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","key_id":"568250167242549743"}
+[debug] [2022-08-24T13:20:23.135Z] <<< [apiv2][status] PUT https://api.github.com/repos/slizer98/vue-firebase/actions/secrets/FIREBASE_SERVICE_ACCOUNT_VUE_FIREBASE_2B6F3 201
+[debug] [2022-08-24T13:20:23.137Z] <<< [apiv2][body] PUT https://api.github.com/repos/slizer98/vue-firebase/actions/secrets/FIREBASE_SERVICE_ACCOUNT_VUE_FIREBASE_2B6F3 {}
+[info] +  Uploaded service account JSON to GitHub as secret FIREBASE_SERVICE_ACCOUNT_VUE_FIREBASE_2B6F3. 
+[info] i  You can manage your secrets at https://github.com/slizer98/vue-firebase/settings/secrets. 
+[info] 
+[info] 
+[info] +  Created workflow file C:\Users\jorje\Desktop\cursos\vue\api-firebase\.github/workflows/firebase-hosting-pull-request.yml 
+[info] 
+[info] +  Created workflow file C:\Users\jorje\Desktop\cursos\vue\api-firebase\.github/workflows/firebase-hosting-merge.yml 
+[info] 
+[info] i  Action required: Visit this URL to revoke authorization for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] i  Action required: Push any new workflow file(s) to your repo 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-08-24T13:22:23.854Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T13:22:23.857Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorje\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-08-24T13:22:23.858Z] CLI Version:   11.8.0
+[debug] [2022-08-24T13:22:23.858Z] Platform:      win32
+[debug] [2022-08-24T13:22:23.859Z] Node Version:  v16.13.1
+[debug] [2022-08-24T13:22:23.860Z] Time:          Wed Aug 24 2022 08:22:23 GMT-0500 (Central Daylight Time)
+[debug] [2022-08-24T13:22:23.861Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-24T13:22:23.955Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-24T13:22:23.958Z] > authorizing via signed-in user (vicolola746@gmail.com)
+[debug] [2022-08-24T13:22:23.959Z] [iam] checking project vue-firebase-2b6f3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-08-24T13:22:23.962Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:testIamPermissions [none]
+[debug] [2022-08-24T13:22:23.963Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:testIamPermissions x-goog-quota-user=projects/vue-firebase-2b6f3
+[debug] [2022-08-24T13:22:23.964Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-24T13:22:24.336Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:testIamPermissions 200
+[debug] [2022-08-24T13:22:24.337Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-firebase-2b6f3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-24T13:22:24.339Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vue-firebase-2b6f3 [none]
+[debug] [2022-08-24T13:22:24.564Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vue-firebase-2b6f3 200
+[debug] [2022-08-24T13:22:24.566Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vue-firebase-2b6f3 {"projectId":"vue-firebase-2b6f3","projectNumber":"402673484601","displayName":"vue-firebase","name":"projects/vue-firebase-2b6f3","resources":{"hostingSite":"vue-firebase-2b6f3","realtimeDatabaseInstance":"vue-firebase-2b6f3-default-rtdb"},"state":"ACTIVE","etag":"1_01af6765-4cd6-4fda-9288-809056aa8140"}
+[info] 
+[info] === Deploying to 'vue-firebase-2b6f3'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-08-24T13:22:24.570Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vue-firebase-2b6f3 [none]
+[debug] [2022-08-24T13:22:24.812Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vue-firebase-2b6f3 200
+[debug] [2022-08-24T13:22:24.813Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vue-firebase-2b6f3 {"projectId":"vue-firebase-2b6f3","projectNumber":"402673484601","displayName":"vue-firebase","name":"projects/vue-firebase-2b6f3","resources":{"hostingSite":"vue-firebase-2b6f3","realtimeDatabaseInstance":"vue-firebase-2b6f3-default-rtdb"},"state":"ACTIVE","etag":"1_01af6765-4cd6-4fda-9288-809056aa8140"}
+[debug] [2022-08-24T13:22:24.817Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions [none]
+[debug] [2022-08-24T13:22:24.818Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-08-24T13:22:26.041Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions 200
+[debug] [2022-08-24T13:22:26.042Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions {"name":"projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef","status":"CREATED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[vue-firebase-2b6f3]: beginning deploy... 
+[info] i  hosting[vue-firebase-2b6f3]: found 16 files in dist 
+[debug] [2022-08-24T13:22:26.061Z] [hosting] uploading with 200 concurrency
+[debug] [2022-08-24T13:22:26.063Z] [hosting] hash cache [ZGlzdA] not populated
+[debug] [2022-08-24T13:22:26.231Z] [hosting] hash cache [ZGlzdA] stored for 16 files
+[debug] [2022-08-24T13:22:26.232Z] [hosting][hash queue][FINAL] {"max":155,"min":14,"avg":24.5625,"active":0,"complete":16,"success":16,"errored":0,"retried":0,"total":16,"elapsed":166}
+[debug] [2022-08-24T13:22:26.234Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef:populateFiles [none]
+[debug] [2022-08-24T13:22:26.235Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef:populateFiles {"files":{"/index.html":"fec62c771aecc31572ada7f4579d2f7669c958c0280ad60a28e33c5387ea511a","/css/chunk-683ab3e2.a1c7f8aa.css":"7d939a89eeac97653b99433d8cbc5c8f483b217aefae23a3e11a8820f0df72c8","/favicon.ico":"d5451f0f0f0bcbcd433bbdf4f6e7e5d89d8ecce2650649e969ccb5e5cd499ab2","/js/chunk-2d0af08d.33410a1a.js":"df3fd65433828e7a20c701c0c88bb746406a1b27d23ffa62a219a8f6e93118d1","/js/chunk-2d0af08d.33410a1a.js.map":"17e93328b2982a99400e492633392b67187680445e6fae27af88ea3bce4a4860","/js/chunk-2d0b5988.cce7b1a1.js":"a7f7bf4e2267c52c1e25ba678fbd161305f076d183cf3c5ea89b3ec4023fcff9","/js/app.6ada59ca.js":"e55514cddaa848eefee9199310e71758b7f30a3f03e53dfddebe7d48a259b497","/js/chunk-2d0b5988.cce7b1a1.js.map":"8ac3494439c0315f4309bc575f420096c791a4c65b6548ec086f0fe65b317439","/js/chunk-2d2086b7.2a5f6776.js":"7a10e7604105758d34e60be71303336fe83429626d021873bb443dbdc915481c","/js/chunk-2d2086b7.2a5f6776.js.map":"e6eccf5cc1265240e6686cae7b0b0bfae070d6669919c09c4ec9f276d95ca4af","/js/chunk-683ab3e2.12e19a75.js":"cef295499577efae2beb53f8c1f3207729fed49ee626b6a6a7d6463d3c908d05","/js/chunk-683ab3e2.12e19a75.js.map":"cb7780b1e592bd1e9fef8aac29ae08d1ba8027720f20c902934eb6fe9d143d22","/js/app.6ada59ca.js.map":"5beee823ba6ce51a48050159b760c68a0ca077974093286b25acafb9da3c2e70","/js/chunk-vendors.c354bf7d.js":"0ca29475eaf1f8cba0e73b25845519ce57d249d5220e9fd98824d5852504cf61","/img/404-removebg-preview.85b1ab36.png":"3a8689fad7570eac715cb4b92155d53df819f011ee3d00d822808cb397d04701","/js/chunk-vendors.c354bf7d.js.map":"e4f05ee9ec00659e675429fa9a48c4db13b235b6a30954fed8ee351113af24c2"}}
+[debug] [2022-08-24T13:22:26.681Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef:populateFiles 200
+[debug] [2022-08-24T13:22:26.682Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef:populateFiles {"uploadRequiredHashes":["d5451f0f0f0bcbcd433bbdf4f6e7e5d89d8ecce2650649e969ccb5e5cd499ab2","0ca29475eaf1f8cba0e73b25845519ce57d249d5220e9fd98824d5852504cf61","cb7780b1e592bd1e9fef8aac29ae08d1ba8027720f20c902934eb6fe9d143d22","7a10e7604105758d34e60be71303336fe83429626d021873bb443dbdc915481c","a7f7bf4e2267c52c1e25ba678fbd161305f076d183cf3c5ea89b3ec4023fcff9","5beee823ba6ce51a48050159b760c68a0ca077974093286b25acafb9da3c2e70","e6eccf5cc1265240e6686cae7b0b0bfae070d6669919c09c4ec9f276d95ca4af","17e93328b2982a99400e492633392b67187680445e6fae27af88ea3bce4a4860","3a8689fad7570eac715cb4b92155d53df819f011ee3d00d822808cb397d04701","df3fd65433828e7a20c701c0c88bb746406a1b27d23ffa62a219a8f6e93118d1","7d939a89eeac97653b99433d8cbc5c8f483b217aefae23a3e11a8820f0df72c8","e4f05ee9ec00659e675429fa9a48c4db13b235b6a30954fed8ee351113af24c2","fec62c771aecc31572ada7f4579d2f7669c958c0280ad60a28e33c5387ea511a","8ac3494439c0315f4309bc575f420096c791a4c65b6548ec086f0fe65b317439","e55514cddaa848eefee9199310e71758b7f30a3f03e53dfddebe7d48a259b497","cef295499577efae2beb53f8c1f3207729fed49ee626b6a6a7d6463d3c908d05"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files"}
+[debug] [2022-08-24T13:22:26.688Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/d5451f0f0f0bcbcd433bbdf4f6e7e5d89d8ecce2650649e969ccb5e5cd499ab2 [none]
+[debug] [2022-08-24T13:22:26.690Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/d5451f0f0f0bcbcd433bbdf4f6e7e5d89d8ecce2650649e969ccb5e5cd499ab2 [stream]
+[debug] [2022-08-24T13:22:26.692Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/0ca29475eaf1f8cba0e73b25845519ce57d249d5220e9fd98824d5852504cf61 [none]
+[debug] [2022-08-24T13:22:26.693Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/0ca29475eaf1f8cba0e73b25845519ce57d249d5220e9fd98824d5852504cf61 [stream]
+[debug] [2022-08-24T13:22:26.695Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/cb7780b1e592bd1e9fef8aac29ae08d1ba8027720f20c902934eb6fe9d143d22 [none]
+[debug] [2022-08-24T13:22:26.696Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/cb7780b1e592bd1e9fef8aac29ae08d1ba8027720f20c902934eb6fe9d143d22 [stream]
+[debug] [2022-08-24T13:22:26.698Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/7a10e7604105758d34e60be71303336fe83429626d021873bb443dbdc915481c [none]
+[debug] [2022-08-24T13:22:26.699Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/7a10e7604105758d34e60be71303336fe83429626d021873bb443dbdc915481c [stream]
+[debug] [2022-08-24T13:22:26.701Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/a7f7bf4e2267c52c1e25ba678fbd161305f076d183cf3c5ea89b3ec4023fcff9 [none]
+[debug] [2022-08-24T13:22:26.702Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/a7f7bf4e2267c52c1e25ba678fbd161305f076d183cf3c5ea89b3ec4023fcff9 [stream]
+[debug] [2022-08-24T13:22:26.704Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/5beee823ba6ce51a48050159b760c68a0ca077974093286b25acafb9da3c2e70 [none]
+[debug] [2022-08-24T13:22:26.705Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/5beee823ba6ce51a48050159b760c68a0ca077974093286b25acafb9da3c2e70 [stream]
+[debug] [2022-08-24T13:22:26.707Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e6eccf5cc1265240e6686cae7b0b0bfae070d6669919c09c4ec9f276d95ca4af [none]
+[debug] [2022-08-24T13:22:26.707Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e6eccf5cc1265240e6686cae7b0b0bfae070d6669919c09c4ec9f276d95ca4af [stream]
+[debug] [2022-08-24T13:22:26.709Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/17e93328b2982a99400e492633392b67187680445e6fae27af88ea3bce4a4860 [none]
+[debug] [2022-08-24T13:22:26.710Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/17e93328b2982a99400e492633392b67187680445e6fae27af88ea3bce4a4860 [stream]
+[debug] [2022-08-24T13:22:26.713Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/3a8689fad7570eac715cb4b92155d53df819f011ee3d00d822808cb397d04701 [none]
+[debug] [2022-08-24T13:22:26.714Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/3a8689fad7570eac715cb4b92155d53df819f011ee3d00d822808cb397d04701 [stream]
+[debug] [2022-08-24T13:22:26.717Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/df3fd65433828e7a20c701c0c88bb746406a1b27d23ffa62a219a8f6e93118d1 [none]
+[debug] [2022-08-24T13:22:26.718Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/df3fd65433828e7a20c701c0c88bb746406a1b27d23ffa62a219a8f6e93118d1 [stream]
+[debug] [2022-08-24T13:22:26.721Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/7d939a89eeac97653b99433d8cbc5c8f483b217aefae23a3e11a8820f0df72c8 [none]
+[debug] [2022-08-24T13:22:26.724Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/7d939a89eeac97653b99433d8cbc5c8f483b217aefae23a3e11a8820f0df72c8 [stream]
+[debug] [2022-08-24T13:22:26.727Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e4f05ee9ec00659e675429fa9a48c4db13b235b6a30954fed8ee351113af24c2 [none]
+[debug] [2022-08-24T13:22:26.728Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e4f05ee9ec00659e675429fa9a48c4db13b235b6a30954fed8ee351113af24c2 [stream]
+[debug] [2022-08-24T13:22:26.734Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/fec62c771aecc31572ada7f4579d2f7669c958c0280ad60a28e33c5387ea511a [none]
+[debug] [2022-08-24T13:22:26.735Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/fec62c771aecc31572ada7f4579d2f7669c958c0280ad60a28e33c5387ea511a [stream]
+[debug] [2022-08-24T13:22:26.738Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/8ac3494439c0315f4309bc575f420096c791a4c65b6548ec086f0fe65b317439 [none]
+[debug] [2022-08-24T13:22:26.739Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/8ac3494439c0315f4309bc575f420096c791a4c65b6548ec086f0fe65b317439 [stream]
+[debug] [2022-08-24T13:22:26.742Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e55514cddaa848eefee9199310e71758b7f30a3f03e53dfddebe7d48a259b497 [none]
+[debug] [2022-08-24T13:22:26.743Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e55514cddaa848eefee9199310e71758b7f30a3f03e53dfddebe7d48a259b497 [stream]
+[debug] [2022-08-24T13:22:26.746Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/cef295499577efae2beb53f8c1f3207729fed49ee626b6a6a7d6463d3c908d05 [none]
+[debug] [2022-08-24T13:22:26.748Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/cef295499577efae2beb53f8c1f3207729fed49ee626b6a6a7d6463d3c908d05 [stream]
+[debug] [2022-08-24T13:22:26.750Z] [hosting][populate queue][FINAL] {"max":462,"min":462,"avg":462,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":524}
+[debug] [2022-08-24T13:22:26.752Z] [hosting] uploads queued: 16
+[debug] [2022-08-24T13:22:27.290Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/d5451f0f0f0bcbcd433bbdf4f6e7e5d89d8ecce2650649e969ccb5e5cd499ab2 200
+[debug] [2022-08-24T13:22:27.291Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/d5451f0f0f0bcbcd433bbdf4f6e7e5d89d8ecce2650649e969ccb5e5cd499ab2 [stream]
+[debug] [2022-08-24T13:22:27.398Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/5beee823ba6ce51a48050159b760c68a0ca077974093286b25acafb9da3c2e70 200
+[debug] [2022-08-24T13:22:27.399Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/5beee823ba6ce51a48050159b760c68a0ca077974093286b25acafb9da3c2e70 [stream]
+[debug] [2022-08-24T13:22:27.451Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/17e93328b2982a99400e492633392b67187680445e6fae27af88ea3bce4a4860 200
+[debug] [2022-08-24T13:22:27.453Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/17e93328b2982a99400e492633392b67187680445e6fae27af88ea3bce4a4860 [stream]
+[debug] [2022-08-24T13:22:27.455Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/a7f7bf4e2267c52c1e25ba678fbd161305f076d183cf3c5ea89b3ec4023fcff9 200
+[debug] [2022-08-24T13:22:27.456Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/a7f7bf4e2267c52c1e25ba678fbd161305f076d183cf3c5ea89b3ec4023fcff9 [stream]
+[debug] [2022-08-24T13:22:27.492Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e55514cddaa848eefee9199310e71758b7f30a3f03e53dfddebe7d48a259b497 200
+[debug] [2022-08-24T13:22:27.493Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e55514cddaa848eefee9199310e71758b7f30a3f03e53dfddebe7d48a259b497 [stream]
+[debug] [2022-08-24T13:22:27.501Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/0ca29475eaf1f8cba0e73b25845519ce57d249d5220e9fd98824d5852504cf61 200
+[debug] [2022-08-24T13:22:27.502Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/0ca29475eaf1f8cba0e73b25845519ce57d249d5220e9fd98824d5852504cf61 [stream]
+[debug] [2022-08-24T13:22:27.505Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/7d939a89eeac97653b99433d8cbc5c8f483b217aefae23a3e11a8820f0df72c8 200
+[debug] [2022-08-24T13:22:27.506Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/7d939a89eeac97653b99433d8cbc5c8f483b217aefae23a3e11a8820f0df72c8 [stream]
+[debug] [2022-08-24T13:22:27.509Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/cb7780b1e592bd1e9fef8aac29ae08d1ba8027720f20c902934eb6fe9d143d22 200
+[debug] [2022-08-24T13:22:27.510Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/cb7780b1e592bd1e9fef8aac29ae08d1ba8027720f20c902934eb6fe9d143d22 [stream]
+[debug] [2022-08-24T13:22:27.512Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e6eccf5cc1265240e6686cae7b0b0bfae070d6669919c09c4ec9f276d95ca4af 200
+[debug] [2022-08-24T13:22:27.514Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e6eccf5cc1265240e6686cae7b0b0bfae070d6669919c09c4ec9f276d95ca4af [stream]
+[debug] [2022-08-24T13:22:27.560Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/7a10e7604105758d34e60be71303336fe83429626d021873bb443dbdc915481c 200
+[debug] [2022-08-24T13:22:27.561Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/7a10e7604105758d34e60be71303336fe83429626d021873bb443dbdc915481c [stream]
+[debug] [2022-08-24T13:22:27.580Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/df3fd65433828e7a20c701c0c88bb746406a1b27d23ffa62a219a8f6e93118d1 200
+[debug] [2022-08-24T13:22:27.581Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/df3fd65433828e7a20c701c0c88bb746406a1b27d23ffa62a219a8f6e93118d1 [stream]
+[debug] [2022-08-24T13:22:27.597Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/cef295499577efae2beb53f8c1f3207729fed49ee626b6a6a7d6463d3c908d05 200
+[debug] [2022-08-24T13:22:27.598Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/cef295499577efae2beb53f8c1f3207729fed49ee626b6a6a7d6463d3c908d05 [stream]
+[debug] [2022-08-24T13:22:27.712Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/8ac3494439c0315f4309bc575f420096c791a4c65b6548ec086f0fe65b317439 200
+[debug] [2022-08-24T13:22:27.713Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/8ac3494439c0315f4309bc575f420096c791a4c65b6548ec086f0fe65b317439 [stream]
+[debug] [2022-08-24T13:22:27.799Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/fec62c771aecc31572ada7f4579d2f7669c958c0280ad60a28e33c5387ea511a 200
+[debug] [2022-08-24T13:22:27.801Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/fec62c771aecc31572ada7f4579d2f7669c958c0280ad60a28e33c5387ea511a [stream]
+[debug] [2022-08-24T13:22:27.806Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/3a8689fad7570eac715cb4b92155d53df819f011ee3d00d822808cb397d04701 200
+[debug] [2022-08-24T13:22:27.807Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/3a8689fad7570eac715cb4b92155d53df819f011ee3d00d822808cb397d04701 [stream]
+[debug] [2022-08-24T13:22:27.944Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e4f05ee9ec00659e675429fa9a48c4db13b235b6a30954fed8ee351113af24c2 200
+[debug] [2022-08-24T13:22:27.946Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef/files/e4f05ee9ec00659e675429fa9a48c4db13b235b6a30954fed8ee351113af24c2 [stream]
+[debug] [2022-08-24T13:22:27.948Z] [hosting][upload queue][FINAL] {"max":1260,"min":608,"avg":885.5,"active":0,"complete":16,"success":16,"errored":0,"retried":0,"total":16,"elapsed":1264}
+[info] +  hosting[vue-firebase-2b6f3]: file upload complete 
+[debug] [2022-08-24T13:22:27.954Z] [hosting] deploy completed after 1906ms
+[debug] [2022-08-24T13:22:27.959Z] [
+  {
+    "config": {
+      "public": "dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "vue-firebase-2b6f3"
+    },
+    "site": "vue-firebase-2b6f3",
+    "version": "projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef"
+  }
+]
+[info] i  hosting[vue-firebase-2b6f3]: finalizing version... 
+[debug] [2022-08-24T13:22:27.974Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef updateMask=status%2Cconfig
+[debug] [2022-08-24T13:22:27.976Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2022-08-24T13:22:28.446Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef 200
+[debug] [2022-08-24T13:22:28.447Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef {"name":"projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-08-24T13:22:25.615104Z","createUser":{"email":"vicolola746@gmail.com"},"finalizeTime":"2022-08-24T13:22:28.783110Z","finalizeUser":{"email":"vicolola746@gmail.com"}}
+[debug] [2022-08-24T13:22:28.448Z] [hosting] finalized version for vue-firebase-2b6f3:[object Object]
+[info] +  hosting[vue-firebase-2b6f3]: version finalized 
+[info] i  hosting[vue-firebase-2b6f3]: releasing new version... 
+[debug] [2022-08-24T13:22:28.450Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/releases versionName=projects%2F402673484601%2Fsites%2Fvue-firebase-2b6f3%2Fversions%2Fa5386fcca7b803ef
+[debug] [2022-08-24T13:22:28.450Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/releases {"message":null}
+[debug] [2022-08-24T13:22:28.865Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/releases 200
+[debug] [2022-08-24T13:22:28.866Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/402673484601/sites/vue-firebase-2b6f3/releases {"name":"projects/402673484601/sites/vue-firebase-2b6f3/releases/1661347348609968","version":{"name":"projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-08-24T13:22:25.615104Z","createUser":{"email":"vicolola746@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AItbvmkRV-Nmr3L3fsQk3RCtb71n0tNAZU4uSiRjaVNx=mo"},"finalizeTime":"2022-08-24T13:22:28.783110Z","finalizeUser":{"email":"vicolola746@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AItbvmkRV-Nmr3L3fsQk3RCtb71n0tNAZU4uSiRjaVNx=mo"}},"type":"DEPLOY","releaseTime":"2022-08-24T13:22:28.609968351Z","releaseUser":{"email":"vicolola746@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AItbvmkRV-Nmr3L3fsQk3RCtb71n0tNAZU4uSiRjaVNx=mo"}}
+[debug] [2022-08-24T13:22:28.868Z] [hosting] release: {"name":"projects/402673484601/sites/vue-firebase-2b6f3/releases/1661347348609968","version":{"name":"projects/402673484601/sites/vue-firebase-2b6f3/versions/a5386fcca7b803ef","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-08-24T13:22:25.615104Z","createUser":{"email":"vicolola746@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AItbvmkRV-Nmr3L3fsQk3RCtb71n0tNAZU4uSiRjaVNx=mo"},"finalizeTime":"2022-08-24T13:22:28.783110Z","finalizeUser":{"email":"vicolola746@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AItbvmkRV-Nmr3L3fsQk3RCtb71n0tNAZU4uSiRjaVNx=mo"}},"type":"DEPLOY","releaseTime":"2022-08-24T13:22:28.609968351Z","releaseUser":{"email":"vicolola746@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AItbvmkRV-Nmr3L3fsQk3RCtb71n0tNAZU4uSiRjaVNx=mo"}}
+[info] +  hosting[vue-firebase-2b6f3]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/vue-firebase-2b6f3/overview
+[info] Hosting URL: https://vue-firebase-2b6f3.web.app
