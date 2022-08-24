@@ -39,6 +39,32 @@ export default createStore({
     }
   },
   actions: {
+    cerrarSesion({commit}) {
+      commit('setUser', null)
+      router.push('/login')
+      localStorage.removeItem('usuario')
+    },
+    async ingresoUsuario({commit}, usuario) {
+      try {
+        const res = await fetch('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDdung_-DxQotJkL3hWNtamgU-IrjjLxr0', {
+          method: 'POST',
+          body: JSON.stringify({
+            email: usuario.email,
+            password: usuario.password,
+            returnSecureToken: true
+          })
+        })
+        const userDB = await res.json()
+        if(userDB.error) {
+          return console.log(userDB.error)
+        }
+        commit('setUser', userDB)
+        router.push('/')
+        localStorage.setItem('usuario', JSON.stringify(userDB))
+      } catch (error) {
+        console.log(error)
+      }
+    },
     async registrarUsuario({commit}, usuario) {
       try {
         const res = await fetch('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDdung_-DxQotJkL3hWNtamgU-IrjjLxr0', {
@@ -56,14 +82,20 @@ export default createStore({
           return
         }
         commit('setUser', userDB)
-
+        router.push('/')
+        localStorage.setItem('usuario', JSON.stringify(userDB))
       } catch (error) {
         console.log(error)
       }
     },
-    async cargarLocalStorage({commit}) {  
+    async cargarLocalStorage({commit, state}) {  
       try {
-        const res = await fetch('https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas.json', {
+        if(localStorage.getItem('usuario')) {
+          commit('setUser', JSON.parse(localStorage.getItem('usuario')))
+        } else {
+          return commit('setUser', null)
+        }
+        const res = await fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas/${state.user.localId}.json?auth=${state.user.idToken}`, {
           method: 'GET'
         })
         const dataDB = await res.json()
@@ -77,9 +109,9 @@ export default createStore({
         console.log(error)
       }
     },
-    async setTareas({ commit }, tarea) {
+    async setTareas({ commit, state }, tarea) {
       try {
-        const res = await fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas/${tarea.id}.json`, {
+        const res = await fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas/${state.user.localId}/${tarea.id}.json?auth=${state.user.idToken}`, {
           method: 'PUT',
           headers: {'Content-type': 'application/json'},
           body: JSON.stringify(tarea),
@@ -92,9 +124,9 @@ export default createStore({
         console.log(error)
       }
     },
-    deleteTareas({commit}, id) {
+    deleteTareas({commit, state}, id) {
       try {
-        fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas/${id}.json`, {
+        fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas//${state.user.localId}/${id}.json?auth=${state.user.idToken}`, {
           method: 'DELETE',
         })
         commit('eliminar', id)
@@ -106,19 +138,23 @@ export default createStore({
     setTarea({commit}, id) {
       commit('tarea', id)
     },
-    async updateTarea({commit}, tarea) {
+    async updateTarea({commit, state}, tarea) {
       try {
-        const res = await fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas/${tarea.id}.json`, {
+        const res = await fetch(`https://vue-firebase-2b6f3-default-rtdb.firebaseio.com/tareas/${state.user.localId}/${tarea.id}.json?auth=${state.user.idToken}`, {
           method: 'PATCH',
           headers: {'Content-type': 'application/json'},
           body: JSON.stringify(tarea)
         })
         const dataDB = await res.json()
         commit('update', dataDB)
-
       } catch (error) {
         console.log(error)
       }
+    }
+  },
+  getters: {
+    usuarioAutenticado(state) {
+      return !!state.user
     }
   },
   modules: {

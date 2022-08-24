@@ -1,4 +1,5 @@
 <template>
+  <h1>Mis Tareas</h1>
   <form @submit.prevent="procesarFormulario">
     <Input :tarea="tarea" />
   </form>
@@ -32,7 +33,7 @@ export default {
     }
   },
   methods: {
-    ...mapActions(['setTareas']),
+    ...mapActions(['setTareas', 'cargarLocalStorage']),
     procesarFormulario() {
       if(this.tarea.nombre.trim() === '') {
         console.log('Vacio');
@@ -55,6 +56,9 @@ export default {
         numero: 0
       }
     }
+  },
+  created() {
+    this.cargarLocalStorage()
   },
 }
 </script>
